@@ -9,7 +9,7 @@ concurrency: acceptance
 env:
   OWNER: greeta-erp
   REGISTRY: ghcr.io
-  APP_REPO: erp-api
+  APP_REPO: erp-api-temp
   DEPLOY_REPO: erp-infra
   VERSION: ${{ github.sha }}
 
